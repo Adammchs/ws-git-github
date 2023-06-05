@@ -1,4 +1,8 @@
 on:
     push:
-        run:
-            make
+
+jobs:
+    runs-on: ubuntu-latest
+    steps:
+        name: Compile project
+        run: make
