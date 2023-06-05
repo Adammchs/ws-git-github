@@ -2,7 +2,6 @@ on:
     push:
 
 jobs:
-    runs-on: ubuntu-latest
     steps:
-        name: Compile project
+        name: "Compile project"
         run: make
