@@ -5,7 +5,8 @@
 ## Makefile
 ##
 
-all:				cat test
+all:
+				cat ./test
 
 clean:
 				find . -name "*~" -delete -or -name "#*#" -delete
